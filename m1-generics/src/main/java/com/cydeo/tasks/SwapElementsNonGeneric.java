@@ -2,7 +2,7 @@ package com.cydeo.tasks;
 
 import java.util.Arrays;
 
-public class SwapElements {
+public class SwapElementsNonGeneric {
 
     /* Write a generic method to exchange the positions of two different elements in array. */
 
@@ -18,14 +18,15 @@ public class SwapElements {
 
     }
 
+//   |NON_GENERIC METHOD (int type)|
     private static void swap(int [] arr1, int index1, int index2){
 
         int temp = arr1[index1];
         arr1[index1] = arr1[index2];
         arr1[index2] = temp;
-
-
-
     }
+
+
+
 
 }
