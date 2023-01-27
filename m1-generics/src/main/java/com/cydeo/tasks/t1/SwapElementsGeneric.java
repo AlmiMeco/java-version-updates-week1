@@ -1,4 +1,4 @@
-package com.cydeo.tasks;
+package com.cydeo.tasks.t1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
