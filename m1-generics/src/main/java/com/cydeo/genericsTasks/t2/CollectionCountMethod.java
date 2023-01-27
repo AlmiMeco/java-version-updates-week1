@@ -1,4 +1,4 @@
-package com.cydeo.tasks.t2;
+package com.cydeo.genericsTasks.t2;
 
 public class CollectionCountMethod implements UnaryPredicate {
 
