@@ -2,7 +2,7 @@ package com.cydeo;
 
 import java.util.Arrays;
 
-public class Main2 {
+public class EnumNotes {
 
     public static void main(String[] args) {
 

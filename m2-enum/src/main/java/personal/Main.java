@@ -4,8 +4,18 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println(Operation.PI.getValue());
+        calculate(10,2,Operation.DIVIDE);
+        calculate(10,2,Operation.dog);
 
-        calculate(10,2,Operation.MULTIPLY);
+
+        System.out.println("--------------------------------------");
+
+
+        Double PI = Operation.PI.getValue();
+
+        System.out.println(PI);
+
 
 
 
