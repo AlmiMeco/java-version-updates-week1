@@ -1,5 +1,7 @@
 package com.cydeo.warmupTask;
 
+import com.cydeo.Sorting;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -27,6 +29,17 @@ public class Main {
 
         System.out.println("greenApples = " + greenApples);
         System.out.println("heavyApples = " + heavyApples);
+
+        System.out.println("------------------------------------------------");
+
+
+        /* Instead of having to create Green/HeavyApplePredicate Classes just for one implementation of the method you can
+        create the method and store it under the signature (appleWeight/Color) using Lambda Expressions */
+
+        ApplePredcate appleWeight = (Apple apple) -> apple.getWeight() >= 200;
+        ApplePredcate appleColor = (Apple apple2) -> apple2.getColor().equals(Color.GREEN);
+
+        filterApples(appleInventory, appleWeight);
 
 
 

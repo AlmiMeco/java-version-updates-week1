@@ -15,6 +15,12 @@ public class ArraySorting {
         bs.sort();
 
 
+
+        /* LAMBDA EXPRESSION */
+
+        Sorting quickSort = () -> System.out.println("Quick Sorting");
+
+
     }
 
 
