@@ -23,12 +23,12 @@ public class Main {
         System.out.println(appleInventory.get(0).getColor());
         System.out.println("------------------------------------------------");
 
-        List<Apple> heavyApples = filterApples(appleInventory, new HeavyApplePredicate());
-        List<Apple> greenApples = filterApples(appleInventory, new GreenApplePredicate());
+       // List<Apple> heavyApples = filterApples(appleInventory, new HeavyApplePredicate());
+        //List<Apple> greenApples = filterApples(appleInventory, new GreenApplePredicate());
 
 
-        System.out.println("greenApples = " + greenApples);
-        System.out.println("heavyApples = " + heavyApples);
+        //System.out.println("greenApples = " + greenApples);
+      //  System.out.println("heavyApples = " + heavyApples);
 
         System.out.println("------------------------------------------------");
 

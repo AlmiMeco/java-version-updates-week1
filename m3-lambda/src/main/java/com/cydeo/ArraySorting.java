@@ -19,6 +19,10 @@ public class ArraySorting {
         /* LAMBDA EXPRESSION */
 
         Sorting quickSort = () -> System.out.println("Quick Sorting");
+        Sorting bubbleSort = () -> System.out.println("Bubble Sorting");
+        Sorting arraySort = () -> System.out.println("ArraySorting Sorting");
+
+
 
 
     }
