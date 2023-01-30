@@ -1,5 +1,7 @@
 package com.cydeo.warmupTask;
 
-public interface ApplePredcate {
+public interface ApplePredicate {
+
     boolean test(Apple apple);
+
 }
