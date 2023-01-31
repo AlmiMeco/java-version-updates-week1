@@ -19,14 +19,14 @@ public class Main {
         System.out.println("How to get all constant");
         Currency[] currencies = Currency.values(); // <-- calls all values of {Currency} enum
 
-        for(Currency currency : currencies){
+        for (Currency currency : currencies) {
             System.out.println(currency);
         }
 
         System.out.println("How to use switch-case with enums");
 
         Currency myCurrency = Currency.QUARTER;
-        switch(myCurrency){
+        switch (myCurrency) {
             case PENNY:
                 System.out.println("It is 1 cent");
                 break;
@@ -42,7 +42,7 @@ public class Main {
         }
 
         System.out.println("Operation Task");
-        calculate(3,5,Operation.PLUS);
+        calculate(3, 5, Operation.PLUS);
 
 
         System.out.println("How top retrieve the constant value");
@@ -51,23 +51,22 @@ public class Main {
         System.out.println(Currency.QUARTER.ordinal());
 
 
-
     }
 
-    private static void calculate(double x, double y,Operation operation){
+    private static void calculate(double x, double y, Operation operation) {
 
-        switch(operation){
+        switch (operation) {
             case PLUS:
-                System.out.println(x+y);
+                System.out.println(x + y);
                 break;
             case MINUS:
-                System.out.println(x-y);
+                System.out.println(x - y);
                 break;
             case MULTIPLY:
-                System.out.println(x*y);
+                System.out.println(x * y);
                 break;
             case DIVIDE:
-                System.out.println(x/y);
+                System.out.println(x / y);
                 break;
         }
     }

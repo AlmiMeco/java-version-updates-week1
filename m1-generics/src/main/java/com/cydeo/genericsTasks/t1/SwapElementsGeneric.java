@@ -15,8 +15,8 @@ public class SwapElementsGeneric {
         arrayList.add(3);
         arrayList.add(4);
 
-        Integer[] a = {1,2,3,4};
-        swap(a,0,1);
+        Integer[] a = {1, 2, 3, 4};
+        swap(a, 0, 1);
         System.out.println(Arrays.asList(a));
 
         String[] str = {"Almi", "Koko", "Arjan", "Jackson"};
@@ -25,7 +25,7 @@ public class SwapElementsGeneric {
 
     }
 
-    private static <T> void swap(T[] array, int index1, int index2){
+    private static <T> void swap(T[] array, int index1, int index2) {
 
         T temp = array[index1];
         array[index1] = array[index2];

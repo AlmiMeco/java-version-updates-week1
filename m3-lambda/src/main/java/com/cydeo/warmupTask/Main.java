@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        List <Apple> appleInventory = new ArrayList<>();
+        List<Apple> appleInventory = new ArrayList<>();
         appleInventory.add(new Apple(Color.GREEN, 230));
         appleInventory.add(new Apple(Color.RED, 151));
         appleInventory.add(new Apple(Color.GREEN, 212));
@@ -20,12 +20,12 @@ public class Main {
         System.out.println(appleInventory.get(0).getColor());
         System.out.println("------------------------------------------------");
 
-       // List<Apple> heavyApples = filterApples(appleInventory, new HeavyApplePredicate());
+        // List<Apple> heavyApples = filterApples(appleInventory, new HeavyApplePredicate());
         //List<Apple> greenApples = filterApples(appleInventory, new GreenApplePredicate());
 
 
         //System.out.println("greenApples = " + greenApples);
-      //  System.out.println("heavyApples = " + heavyApples);
+        //  System.out.println("heavyApples = " + heavyApples);
 
         System.out.println("------------------------------------------------");
 
@@ -39,14 +39,13 @@ public class Main {
         filterApples(appleInventory, appleWeight);
 
 
-
     }
 
-    public static List<Apple> filterApples(List<Apple> inventory, ApplePredicate applePredcate){
+    public static List<Apple> filterApples(List<Apple> inventory, ApplePredicate applePredcate) {
 
         List<Apple> result = new ArrayList<>();
 
-        for (Apple apple : inventory){
+        for (Apple apple : inventory) {
             if (applePredcate.test(apple)) {
                 result.add(apple);
             }

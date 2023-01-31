@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/m4-doubleColonOperator/pom.xml" />
         <option value="$PROJECT_DIR$/m5-comparatorInterface/pom.xml" />
+        <option value="$PROJECT_DIR$/m6-streams/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -10,7 +10,7 @@ public class UserTest {
     public static void main(String[] args) {
 
 
-        List <User> users = new ArrayList<>();
+        List<User> users = new ArrayList<>();
         users.add(new User("Almi", "Meci", 21));
         users.add(new User("Jack", "Black", 31));
         users.add(new User("Koko", "Matter", 9));
@@ -20,22 +20,21 @@ public class UserTest {
         printName(users, user -> true);
 
 
-
 //        Print All People that lastName starts with M
 
         printName(users, user -> user.getLastName().startsWith("M"));
 
     }
 
-    private static void printName(List<User> users, Predicate<User> p){
+    private static void printName(List<User> users, Predicate<User> p) {
 
         for (User user : users) {
 
-            if (p.test(user)){
+            if (p.test(user)) {
                 System.out.println(user.toString());
             }
         }
-        
+
     }
 
 

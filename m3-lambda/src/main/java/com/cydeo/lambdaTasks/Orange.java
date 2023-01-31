@@ -16,7 +16,6 @@ import lombok.ToString;
 public class Orange {
 
 
-
     private int weight;
     private Color color;
 

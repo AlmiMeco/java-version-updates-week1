@@ -35,7 +35,7 @@ public class FunctionalInterface {
 //        void accept(T t);
 
         /* accepts (Object) -> returns {void (whatever you want)} */
-        Consumer <Integer> consumerFunction = obj -> System.out.println("Hello");
+        Consumer<Integer> consumerFunction = obj -> System.out.println("Hello");
 
         consumerFunction.accept(1);
 //         --> Hello
@@ -45,9 +45,9 @@ public class FunctionalInterface {
 //        void accept(T t, U u);
 
         /* similar to consumer but accepts 2 objects */
-        BiConsumer <Integer, Integer> add2Ints = (x,y) -> System.out.println(x + y);
+        BiConsumer<Integer, Integer> add2Ints = (x, y) -> System.out.println(x + y);
 
-        add2Ints.accept(13,7);
+        add2Ints.accept(13, 7);
 //        --> 20
 
 //**********************************************************************************************************************
@@ -63,8 +63,8 @@ public class FunctionalInterface {
 
         System.out.println("********************BI-FUNCTION********************");
 
-        BiFunction<Integer, Integer, String> timeTracker = (start, finish) -> "You have been working for " + (finish-start) + "Hrs";
-        System.out.println(timeTracker.apply(7,9));
+        BiFunction<Integer, Integer, String> timeTracker = (start, finish) -> "You have been working for " + (finish - start) + "Hrs";
+        System.out.println(timeTracker.apply(7, 9));
 
 
 //**********************************************************************************************************************
@@ -74,27 +74,8 @@ public class FunctionalInterface {
 
         /* accepts (void) -> returns {Object T}*/
 
-        Supplier <Double> randomValue = () -> Math.random();
+        Supplier<Double> randomValue = () -> Math.random();
         System.out.println(randomValue.get());
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

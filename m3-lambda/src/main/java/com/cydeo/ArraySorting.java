@@ -23,12 +23,10 @@ public class ArraySorting {
         Sorting arraySort = () -> System.out.println("ArraySorting Sorting");
 
 
-
-
     }
 
 
-    private void sort(){
+    private void sort() {
         System.out.println("Sorting Array");
     }
 

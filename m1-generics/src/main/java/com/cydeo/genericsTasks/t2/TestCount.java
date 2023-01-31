@@ -8,7 +8,7 @@ public class TestCount {
     public static void main(String[] args) {
 
 
-        List<Integer> ci = Arrays.asList(1,2,3,4);
+        List<Integer> ci = Arrays.asList(1, 2, 3, 4);
         int count = countIf(ci, new OddPredicate());
         System.out.println("# of ODD integers: " + count);
 
@@ -19,8 +19,8 @@ public class TestCount {
 
         int count = 0;
 
-        for (T element : collection){
-            if (predicate.test(element)){
+        for (T element : collection) {
+            if (predicate.test(element)) {
                 ++count;
             }
         }
