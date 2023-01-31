@@ -4,13 +4,13 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/m1-generics/pom.xml" />
-        <option value="$PROJECT_DIR$/m2-enum/pom.xml" />
-        <option value="$PROJECT_DIR$/m3-lambda/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/m4-doubleColonOperator/pom.xml" />
-        <option value="$PROJECT_DIR$/m5-comparatorInterface/pom.xml" />
         <option value="$PROJECT_DIR$/m6-streams/pom.xml" />
+        <option value="$PROJECT_DIR$/m5-comparatorInterface/pom.xml" />
+        <option value="$PROJECT_DIR$/m4-doubleColonOperator/pom.xml" />
+        <option value="$PROJECT_DIR$/m3-lambda/pom.xml" />
+        <option value="$PROJECT_DIR$/m2-enum/pom.xml" />
+        <option value="$PROJECT_DIR$/m1-generics/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
