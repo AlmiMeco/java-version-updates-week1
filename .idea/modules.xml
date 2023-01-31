@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/m1-generics/m1-generics.iml" filepath="$PROJECT_DIR$/m1-generics/m1-generics.iml" />
-      <module fileurl="file://$PROJECT_DIR$/m2-enum/m2-enum.iml" filepath="$PROJECT_DIR$/m2-enum/m2-enum.iml" />
-      <module fileurl="file://$PROJECT_DIR$/m3-lambda/m3-lambda.iml" filepath="$PROJECT_DIR$/m3-lambda/m3-lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-version-updates-week1.iml" filepath="$PROJECT_DIR$/java-version-updates-week1.iml" />
     </modules>
   </component>
 </project>
