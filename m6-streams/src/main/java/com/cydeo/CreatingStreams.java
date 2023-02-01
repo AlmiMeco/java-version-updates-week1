@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class Main {
+public class CreatingStreams {
     public static void main(String[] args) {
 
 //        |Creating Stream from Array|
@@ -12,7 +12,7 @@ public class Main {
 
         Stream<String> courseStream = Arrays.stream(courses);
 
-//        |Creating Stream from Collection|
+//        |Creating Stream from Collection (List)|
         List<String> list = Arrays.asList("Java", "spring", "Agile");
         Stream<String> streamList = list.stream();
 
@@ -22,7 +22,18 @@ public class Main {
                 new Course("Agile-Scrum", 103)
         );
 
+
+
+//        |Creating stream from (.stream() method) existing collection |
         Stream<Course> myCourseStream = myCourses.stream();
+
+
+//        |Creating stream from (Stream.of() method) new/un-instantiated collection|
+        Stream<Integer> stream = Stream.of(1,2,2,231,411,41);
+
+
+
+
 
 
 
