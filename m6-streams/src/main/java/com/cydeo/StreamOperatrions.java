@@ -11,7 +11,7 @@ public class StreamOperatrions {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         //list.forEach(System.out::println);
 
-        System.out.println("[ Filter ( Operation .filter() method ) ]");
+        System.out.println("[   Filter Operation ( .filter() method )   ]");
 
         list.stream()
 //    [INTERMEDIATE OPERATION]
@@ -19,7 +19,7 @@ public class StreamOperatrions {
 //    [TERMINAL OPERATIONS]
                 .forEach(System.out::println); // print loop for each element (that passed filter) from collection (list)
 
-        System.out.println("[ Limit Operation ( .limit() method ) ]");
+        System.out.println("[   Limit Operation ( .limit() method )   ]");
 
         list.stream()
                 .filter(i -> i % 2 == 0)
@@ -27,13 +27,21 @@ public class StreamOperatrions {
                 .forEach(System.out::println);
 
 
-        System.out.println("[ Skip Operation ( .skip() method ) ]");
+        System.out.println("[   Skip Operation ( .skip() method )   ]");
 
         list.stream()
+
                 .filter(i -> i % 2 == 0)
                 .skip(3)                 // skips (n) number of elements from stream {elements 1-3 are skipped}
                 .forEach(System.out::println);
 
+
+        System.out.println("[   Map Operation ( .map() method )   ]");
+
+        list.stream()
+                .filter(i -> i % 2 == 0)
+                .map(i -> i*2)             // maps an action(s) to the element/object {filtered int (i) is mult. x2}
+                .forEach(System.out::println);
 
     }
 
