@@ -1,4 +1,4 @@
-package com.cydeo.tasks.floatMap;
+package com.cydeo.tasks.flatMapTask;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

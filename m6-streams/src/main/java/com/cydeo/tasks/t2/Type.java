@@ -1,4 +1,4 @@
-package com.cydeo.tasks.T2;
+package com.cydeo.tasks.t2;
 
 public enum Type {
 MEAT,FISH,OTHER;

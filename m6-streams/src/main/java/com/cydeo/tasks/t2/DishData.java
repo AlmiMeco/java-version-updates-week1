@@ -1,4 +1,4 @@
-package com.cydeo.tasks.T2;
+package com.cydeo.tasks.t2;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -8,7 +8,7 @@ import java.util.List;
 /**Print all dish’s name that has less than 400 calories || Print the length of the name of each dish
  **/
 
-public class T2 {
+public class DishData {
 
 
     public static void main(String[] args) {
