@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/m3-lambda/pom.xml" />
         <option value="$PROJECT_DIR$/m2-enum/pom.xml" />
         <option value="$PROJECT_DIR$/m1-generics/pom.xml" />
+        <option value="$PROJECT_DIR$/m7-optional-bigDecimal/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -19,7 +20,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
