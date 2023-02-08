@@ -7,12 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java-version-updates" />
         <module name="m6-streams" />
+        <module name="m8-newVersionUpdates" />
+        <module name="m5-comparatorInterface" />
+        <module name="java-version-updates" />
         <module name="m2-enum" />
         <module name="m1-generics" />
         <module name="m7-optional-bigDecimal" />
-        <module name="m5-comparatorInterface" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

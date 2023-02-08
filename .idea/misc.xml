@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/m2-enum/pom.xml" />
         <option value="$PROJECT_DIR$/m1-generics/pom.xml" />
         <option value="$PROJECT_DIR$/m7-optional-bigDecimal/pom.xml" />
+        <option value="$PROJECT_DIR$/m8-newVersionUpdates/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
