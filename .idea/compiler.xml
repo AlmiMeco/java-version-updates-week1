@@ -10,6 +10,7 @@
         <module name="m6-streams" />
         <module name="m8-newVersionUpdates" />
         <module name="m5-comparatorInterface" />
+        <module name="m9-solidPrinciples" />
         <module name="java-version-updates" />
         <module name="m2-enum" />
         <module name="m1-generics" />

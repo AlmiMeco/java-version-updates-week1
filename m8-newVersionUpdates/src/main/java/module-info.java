@@ -4,7 +4,7 @@
 
 module module8 {
 
-    exports com.noteworthyJavaVersionUpdates.Java9Additions;
+    exports com.cydeo.NoteworthyJavaUpdates.Java9Additions;
     // export ONLY "Java9Additions" pkg
 
 }
