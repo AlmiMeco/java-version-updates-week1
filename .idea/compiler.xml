@@ -15,6 +15,7 @@
         <module name="m2-enum" />
         <module name="m1-generics" />
         <module name="m7-optional-bigDecimal" />
+        <module name="m10-algorithmAnalysis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
