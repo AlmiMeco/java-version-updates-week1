@@ -2,7 +2,7 @@ package com.cydeo;
 
 public enum Operation {
 
-    PLUS, MINUS, MULTIPLY, DIVIDE;
+    PLUS, MINUS, MULTIPLY, DIVIDE
 
 }
 
