@@ -30,7 +30,13 @@ public class ArrayListReview {
             System.out.println(iterator.next());
         }
 
+        System.out.println("-----------------------------------------------------------------------------");
 
+
+        System.out.println("Printing w/ NEW For-Each Loop......................");
+        for (Student ea : students) {
+            System.out.println(ea);
+        }
 
 
 
