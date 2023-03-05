@@ -18,6 +18,7 @@ public class TwoSumOptimalSolution {
             else map.put(array[i], i);
         }
 
+
         return new int[]{};
     }
 
