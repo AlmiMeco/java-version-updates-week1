@@ -1,8 +1,6 @@
 package com.cydeo;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class ArrayListReview {
 
@@ -22,13 +20,16 @@ public class ArrayListReview {
             System.out.println(students.get(i));
         }
 
+
         System.out.println("-----------------------------------------------------------------------------");
+
 
         System.out.println("Printing w/ Iterator......................");
         Iterator iterator = students.listIterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+
 
         System.out.println("-----------------------------------------------------------------------------");
 
@@ -39,6 +40,14 @@ public class ArrayListReview {
         }
 
 
+        System.out.println("-----------------------------------------------------------------------------");
+
+
+        System.out.println("Printing w/ Lambda Loop (accept() functionalInterface)......................");
+        students.forEach(p -> System.out.println(students));
+
+
+        System.out.println("-----------------------------------------------------------------------------");
 
 
 
