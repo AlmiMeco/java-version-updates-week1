@@ -6,6 +6,15 @@ public class ArrayListReview {
 
     public static void main(String[] args) {
 
+        List<Student> studentArrayListFromList = Arrays.asList(
+                new Student(12, "Jack"),
+                new Student(12, "Jack"),
+                new Student(12, "Jack"),
+                new Student(12, "Jack"),
+                new Student(12, "Jack")
+        );
+
+
 
         List<Student> students = new ArrayList<>();
         students.add(new Student(21, "Fark"));
