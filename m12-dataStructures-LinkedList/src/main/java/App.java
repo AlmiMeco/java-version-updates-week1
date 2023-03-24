@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class App {
 
     public static void main(String[] args) {
@@ -11,6 +13,8 @@ public class App {
             myList.add(i);
         }
 
+        myList.print();
+        myList.deleteByID(9);
         myList.print();
 
 
