@@ -7,7 +7,12 @@ public class App {
         System.out.println(myList.isEmpty()); // --> true
 
 
-//        myList.add();
+        for (int i = 0; i < 10; i++) {
+            myList.add(i);
+        }
+
+        myList.print();
+
 
 
 
