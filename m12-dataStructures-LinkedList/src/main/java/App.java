@@ -17,6 +17,8 @@ public class App {
         myList.deleteByID(9);
         myList.print();
 
+        System.out.println(myList.indexOf(8));
+
 
 
 

@@ -61,12 +61,12 @@ public class MySinglyLinkedList {
                     head = current.next; // head == is pushed one spot to the right
                     current.next = null; // the old head pointer is made null (removed)
 
-                /* IF Element deleted is Tail   [O(n)]*/
+                    /* IF Element deleted is Tail   [O(n)]*/
                 } else if (current == tail) {
                     tail = prev;         // tail is moved one spot to the left
                     prev.next = null;    // the old tail pointer is made null (removed)
 
-                /* IF Element deleted is in the Middle [O(n)]*/
+                    /* IF Element deleted is in the Middle [O(n)]*/
                 } else {
                     prev.next = current.next;
                     current.next = null;
@@ -78,12 +78,21 @@ public class MySinglyLinkedList {
             prev = current;
             current = current.next;
         }
-
-
-
-
-
     }
 
+    int indexOf(int id) {
+
+        if (isEmpty()) return -1;
+
+        int posit = 0;
+        Node current = head;
+
+        while (current != null) {
+            if (current.id == id) return posit;
+            posit++;
+            current=current.next;
+        }
+        return -1;
+    }
 
 }
