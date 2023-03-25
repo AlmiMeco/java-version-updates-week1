@@ -9,6 +9,20 @@ public class MySinglyLinkedList {
         return head == null;
     }
 
+    void addFirst(int value){
+        Node node = new Node(value);
+
+        if (isEmpty()) {
+            head = tail = node;
+            size++;
+
+        }else {
+            node.next = head;
+            head = node;
+        }
+
+    }
+
     //    |0(1) Time Complexity :: because insertion is done @end (tail)|
     void add(int value) {
 
