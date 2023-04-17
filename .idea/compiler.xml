@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="m6-streams" />
+        <module name="m13-dataStructures-Stacks" />
         <module name="m8-newVersionUpdates" />
         <module name="m5-comparatorInterface" />
         <module name="m9-solidPrinciples" />
@@ -31,6 +32,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="java-version-updates" options="-parameters" />
+      <module name="m13-dataStructures-Stacks" options="-parameters" />
       <module name="m4-doubleColonOperators" options="" />
     </option>
   </component>
