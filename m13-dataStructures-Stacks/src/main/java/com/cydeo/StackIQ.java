@@ -3,7 +3,7 @@ package com.cydeo;
 import java.util.Deque;
 import java.util.LinkedList;
 
-public class StackInterviewQuestion {
+public class StackIQ {
 
     public static void main(String[] args) {
 
