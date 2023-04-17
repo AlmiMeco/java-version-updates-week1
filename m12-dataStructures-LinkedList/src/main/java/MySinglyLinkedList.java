@@ -120,7 +120,7 @@ public class MySinglyLinkedList {
             p2 = p2.next;
         }
 
-        while (p2 != null) {
+        while (p2.next != null) {
             p1 = p1.next;
             p2 = p2.next;
         }
