@@ -111,4 +111,21 @@ public class MySinglyLinkedList {
         return -1;
     }
 
+    public int getKthElementFromTail(int k){
+
+        Node p1 = head;
+        Node p2 = head;
+
+        for (int i = 0; i < k - 1; i++) {
+            p2 = p2.next;
+        }
+
+        while (p2 != null) {
+            p1 = p1.next;
+            p2 = p2.next;
+        }
+
+        return p1.id;
+    }
+
 }
