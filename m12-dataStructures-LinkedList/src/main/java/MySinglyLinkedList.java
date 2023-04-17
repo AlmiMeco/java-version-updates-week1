@@ -1,6 +1,8 @@
 public class MySinglyLinkedList {
 
-
+                                                /* ADD vs ADD-FIRST */
+    //                                    Add -> add @ any index (beginning,middle,end)
+    //                              Add-First -> add @ first index (always beginning)
     Node head;
     Node tail;
     int size;
