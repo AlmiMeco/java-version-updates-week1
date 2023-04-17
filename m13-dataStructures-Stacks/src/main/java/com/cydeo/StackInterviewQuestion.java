@@ -13,6 +13,8 @@ public class StackInterviewQuestion {
 
     }
 
+//    Time -> 0(n)
+//   Space -> 0(n)
     public static boolean symbolBalancing(String expr) {
 
         // create stack
