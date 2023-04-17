@@ -13,9 +13,14 @@ public class CollectionsStack {
         cStack.push(2);
         cStack.push(3);
 
-        System.out.println(cStack.peek());
-        System.out.println(cStack.pop());
+        System.out.println(cStack);
 
+        System.out.println(cStack.pop()); // -> 3
+        System.out.println(cStack.pop()); // -> 2
+        System.out.println(cStack.pop()); // -> 1
+        /* FILO -> [First-In : Last-Out] */
+
+        System.out.println(cStack);
 
 
     }
