@@ -130,4 +130,12 @@ public class MySinglyLinkedList {
         return p1.id;
     }
 
+    @Override
+    public String toString() {
+        return "MySinglyLinkedList{" +
+                "head=" + head +
+                ", tail=" + tail +
+                ", size=" + size +
+                '}';
+    }
 }

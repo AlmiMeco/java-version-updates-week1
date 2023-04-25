@@ -1,6 +1,8 @@
 package com.cydeo;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -8,15 +10,16 @@ public class MiddleOfLinkedList {
 
     public static void main(String[] args) {
 
-        List<Integer> sll = new LinkedList<>();
-
-        for (int i = 0; i < 9; i++) {
+        MySinglyLinkedList sll = new MySinglyLinkedList();
+        for (int i = 1; i < 10; i++) {
             sll.add(i);
+            System.out.println(i);
         }
 
-        System.out.println(sll);
 
-        printMiddleOfList(sll);
+//        printMiddleOfList(sll);
+
+        printMiddleOfSLL(sll);
 
 
     }
@@ -30,6 +33,24 @@ public class MiddleOfLinkedList {
         }
 
         System.out.println(sll.get(middle));
+
+    }
+
+    public static void printMiddleOfSLL(MySinglyLinkedList sll){
+            // Create pointers
+        Node slow = sll.head;
+        Node fast = sll.head;
+
+            //iterate until the fast pointer reaches the end of SLL
+        while (fast != sll.tail && fast.next != sll.tail) {
+            slow = slow.next;      // +1 ea iteration
+            fast = fast.next.next; // +2 ea iteration
+        }
+
+        if (fast == sll.tail) System.out.println(slow.id);
+        else System.out.println(slow.id);
+
+
 
     }
 
