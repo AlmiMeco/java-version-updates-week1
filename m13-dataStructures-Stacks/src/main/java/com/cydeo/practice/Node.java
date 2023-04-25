@@ -1,4 +1,4 @@
-package com.cydeo;
+package com.cydeo.practice;
 
 public class Node {
 

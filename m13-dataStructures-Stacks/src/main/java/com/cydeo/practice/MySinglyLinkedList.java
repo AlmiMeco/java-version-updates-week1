@@ -1,4 +1,6 @@
-package com.cydeo;
+package com.cydeo.practice;
+
+import com.cydeo.practice.Node;
 
 public class MySinglyLinkedList {
 
