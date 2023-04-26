@@ -29,11 +29,11 @@ public class Solution {
         Node prev = list.head;
         Node current = list.head.next;
 
-        while (current != null) {
-            Node nextNode = current.next;
-            current.next = prev;
-            prev = current;
-            current = nextNode;
+        while (current != null) {         // until we reach the end of the list
+            Node nextNode = current.next; // New NODE obj assigned as current.next
+            current.next = prev;          // (old) current.next is assigned as prev (list.head)
+            prev = current;               // prev (list.head) is now assigned as the current
+            current = nextNode;           // current is assigned to new Obj
         }
 
         list.tail = list.head;
