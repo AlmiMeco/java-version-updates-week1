@@ -18,6 +18,10 @@ public class QueueTest {
         System.out.println("Front of Queue -> " + myQueue.peek()); // front-> 1
 
 
+        System.out.println("--------------------------------------------------");
+        System.out.println("Removing Front of Queue -> " + myQueue.dequeue()); // -> 1 (elem being removed)
+        System.out.println("(New) Front of Queue -> " + myQueue.peek());       // -> 2 (new front of Queue)
+
 
 
 
