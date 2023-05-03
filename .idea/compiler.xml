@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="m8-newVersionUpdates" />
+        <module name="m15-dataStructures-Queues" />
         <module name="m14-dataStructures-ProblemSolving" />
         <module name="m9-solidPrinciples" />
         <module name="java-version-updates" />
