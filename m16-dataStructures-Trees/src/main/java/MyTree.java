@@ -5,28 +5,27 @@ public class MyTree {
     }
 
 
-
-    void insert(int value){
+    void insert(int value) {
         TNode newNode = new TNode(value);
 
-        if (root==null){
-            root=newNode;
+        if (root == null) {
+            root = newNode;
             return;
         }
         TNode current = root;
-        while (true){
+        while (true) {
             if (value <= current.value) {
                 if (current.leftChild == null) {
                     current.leftChild = newNode;
                     break;
                 }
-                current=current.leftChild;
-            }else {
+                current = current.leftChild;
+            } else {
                 if (current.rigthChild == null) {
                     current.rigthChild = newNode;
                     break;
                 }
-                current=current.rigthChild;
+                current = current.rigthChild;
             }
         }
     }
