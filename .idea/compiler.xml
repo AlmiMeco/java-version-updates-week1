@@ -17,6 +17,7 @@
         <module name="m10-algorithmAnalysis" />
         <module name="m6-streams" />
         <module name="m13-dataStructures-Stacks" />
+        <module name="m16-dataStructures-Trees" />
         <module name="m5-comparatorInterface" />
         <module name="m12-dataStructures-LinkedList" />
         <module name="m1-generics" />

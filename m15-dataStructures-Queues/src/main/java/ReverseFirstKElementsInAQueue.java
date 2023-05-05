@@ -14,8 +14,10 @@ public class ReverseFirstKElementsInAQueue {
         integers.enqueue(40);
         integers.enqueue(50);
 
-        integers.
+        integers.printQueue();
         reverseFirstKElem(integers, k);
+        System.out.println("");
+        integers.printQueue();
 
     }
 
