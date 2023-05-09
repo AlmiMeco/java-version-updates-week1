@@ -30,4 +30,16 @@ public class MyTree {
         }
     }
 
+
+    void preOrderTraversal(TNode root){
+
+        if (root==null) return; // termination
+
+
+    }
+
+
+
+
+
 }
