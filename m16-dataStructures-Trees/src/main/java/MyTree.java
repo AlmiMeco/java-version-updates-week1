@@ -35,9 +35,23 @@ public class MyTree {
 
         if (root==null) return; // termination
 
+        System.out.print(root.value +", "); // visit root
+        preOrderTraversal(root.leftChild); // visit left subtree
+        preOrderTraversal(root.rigthChild); // visit right subtree
+
 
     }
 
+
+    void inOrderTraversal(TNode root){
+
+        if (root==null) return;
+
+        inOrderTraversal(root.leftChild);
+        System.out.println(root.value +" ,");
+        inOrderTraversal(root.rigthChild);
+
+    }
 
 
 
