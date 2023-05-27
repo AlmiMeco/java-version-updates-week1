@@ -13,6 +13,7 @@
         <module name="m9-solidPrinciples" />
         <module name="java-version-updates" />
         <module name="m2-enum" />
+        <module name="m17-dataStructures-Heap" />
         <module name="m11-collectionsReview" />
         <module name="m10-algorithmAnalysis" />
         <module name="m6-streams" />
