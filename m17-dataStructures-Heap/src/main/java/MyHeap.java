@@ -14,14 +14,14 @@ public class MyHeap {
 
         if (size == items.length) throw new NoSuchElementException();
         else {
-            items[size] = val;
-            size++;
+            items[size++] = val;
             bubbleUp();
         }
     }
 
     public void bubbleUp(){
         int index = size-1;
+
         while (index > 0 && items[index] > items[parentIndex(index)]){
             swap(index, parentIndex(index));
             index = parentIndex(index);
@@ -51,7 +51,7 @@ public class MyHeap {
 
     public void print(){
         for (int i = 0; i < size; i++) {
-            System.out.println(items[i] + ", " );
+            System.out.print(items[i] + ", " );
         }
         System.out.println();
     }
