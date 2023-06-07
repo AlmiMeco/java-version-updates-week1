@@ -19,6 +19,11 @@ public class MyHeap {
         }
     }
 
+    public int peek() {
+        if (size==0) throw new NoSuchElementException();
+        return items[0];
+    }
+
     public void bubbleUp(){
         int index = size-1;
 
